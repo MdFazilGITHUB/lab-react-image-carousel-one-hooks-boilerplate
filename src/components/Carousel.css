@@ -1,1 +1,62 @@
-/* write down the css for Carousel in this file */
+.carousel-container {
+  height: 800px;
+  width: 900px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+  width: inherit;
+}
+
+.arrowDiv {
+  width: 40px;
+  height: inherit;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.leftArrow {
+  left: 0;
+}
+
+.rightArrow {
+  right: 0;
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 200%;
+  background-color: hsla(0, 0%, 85%, 0.645);
+}
+
+.captions {
+  position: absolute;
+  bottom: 30px;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  font-weight: 450;
+  background-color: hsla(0, 0%, 85%, 0.645);
+}
